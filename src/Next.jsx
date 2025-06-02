@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const photostripColors = ['#ffffff', '#f8f1e4', '#d2ab80', '#b3b792', '#809671'];
+const photostripColors = ['#ffffff', '#000000', '#d2ab80', '#b3b792', '#809671'];
 const backgroundColors = ['#E5E0D8', '#F9F7F3', '#725C3A', '#D2AB80', '#B3B792'];
 
 const Next = () => {
