@@ -371,22 +371,24 @@ const Next = () => {
         }
         
         .strip-date {
-          font-family: 'Caveat', cursive;
-          font-size: 16px;
-          font-weight: 600;
-          color: #725C3A;
-          margin: 5px 0;
-        }
-        
-        .strip-note {
-          font-family: 'Caveat', cursive;
-          font-size: 14px;
-          color: #809671;
-          font-style: italic;
-          margin: 5px 0;
-          word-wrap: break-word;
-          line-height: 1.3;
-        }
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin: 5px 0;
+}
+
+.strip-note {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-style: italic;
+  margin: 5px 0;
+  word-wrap: break-word;
+  line-height: 1.3;
+}
+
+
         
         button {
           cursor: pointer;
